@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photo Album</title>
+    <style>
+    .photo-album {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+      }
+  
+    </style>
+  </head>
+  <body style="background-color: rgb(96, 52, 185);">
+    <h1 class="display-1" style="font-family: 'Times New Roman', Times, serif;font-size: 55px;text-align: center;color: rgb(46, 4, 4);font-style: oblique;"><strong>Cricket Wallpapers</strong></h1>
+    <center>
+    <img id="image2" src="https://images.indianexpress.com/2022/12/cricket-bat-ball-image.jpg" alt="Image 1" width="400" height="400">
+    <img id="image2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvGPuQrd_qG6tSUOWzekfU_FPF5tQjZR_NntxUb4WXpd4NaO-3MmraCucCvOhR-pdiRq0&usqp=CAU" alt="Image 2" width="400" height="400">
+    <img id="image3" src="https://images.unsplash.com/photo-1531415074968-036ba1b575da?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3JpY2tldCUyMGZpZWxkfGVufDB8fDB8fHww&w=1000&q=80" alt="Image 3" width="400" height="400">
+    <img id="image4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8feoqacft45gzHwVOTVwD3FXna6J287yarA&usqp=CAU" alt="Image 4" width="400" height="400">
+    <img id="image5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPV3t5KtT2Owy37sdZh5osG3XqWmhZdG4UkdJNkslNINyYMaOj_077FiQwNzxekmzFfGw&usqp=CAU" alt="Image 5" width="400" height="400">
+    <img id="image6" src="https://media.istockphoto.com/id/505583215/photo/cricket-batsman.jpg?s=612x612&w=0&k=20&c=1wHYrD4fY_4uBM8hQ-WpFcVeVsCZh0kRrw9w4YkcVLc=" alt="Image 6" width="400" height="400">
+    <img id="image7" src="https://d20rwxqzk8p5vr.cloudfront.net/wp-content/uploads/2017/03/cricket-grounds-in-bangalore.jpg" alt="Image 7" width="400" height="400">
+    <img id="image8" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLJ3fvKgF3grna4hpbR00p5gQGaAdq2dKOHL4koRwCkXWNAa9AxJjwbL-Usj_4jprIwY0&usqp=CAU" alt="Image 8" width="400" height="400">
+    <img id="image9" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSe5djBjoHmKzyU3OAW2Gs2QHvpzZM2ISaQbg&usqp=CAU" alt="Image 9" width="400" height="400">
+    <img id="image10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1pryJbcgq3w2AL83jRTe_-qE__JFuDuimQDrQW5_pcn1OGrYRSwkv15DpqGsImCZDs4&usqp=CAU" alt="Image 10" width="400" height="400">
+    <img id="image11" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ7EYj_wOWv-Pa-Y9QqrXvDckoz6nx7iXCjdqzCg7-k6RSy-73_FwPud6HzFPxqP9s0-4&usqp=CAU" alt="Image 11" width="400" height="400">
+    <img id="image12" src="https://img.freepik.com/free-vector/realistic-soccer-football-stadium-illustration_52683-60377.jpg?q=10&h=200" alt="Image 12" width="3=400" height="400">
+    <img id="image13" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU8bpSlsMTR92VuxiCRMpUFao1d7G7M16ifQ&usqp=CAU" alt="Image 13" width="400" height="400">
+    <img id="image14" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0-1vkNANujUAnrykiioxh9NuLIM7mPPzMIQ&usqp=CAU" alt="Image 14" width="400" height="400">
+    <img id="image15" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEw-RSv5ivu8yfmYBEHlo3NL4N5MJP41Aag&usqp=CAU" alt="Image 15" width="400" height="400">
+    <br>
+    </center>
+    <br>
+    <label for="imageSelect" style="font-size: 25px;font-family: cursive;color: rgb(85, 15, 15);">Select an image to duplicate:</label>
+    <select id="imageSelect" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+      <option value="image1">Image 1</option>
+      <option value="image2">Image 2</option>
+      <option value="image3">Image 3</option>
+      <option value="image4">Image 4</option>
+      <option value="image5">Image 5</option>
+      <option value="image6">Image 6</option>
+      <option value="image7">Image 7</option>
+      <option value="image8">Image 8</option>
+      <option value="image9">Image 9</option>
+      <option value="image10">Image 10</option>
+      <option value="image11">Image 11</option>
+      <option value="image12">Image 12</option>
+      <option value="image13">Image 13</option>
+      <option value="image14">Image 14</option>
+      <option value="image15">Image 15</option>
+    </select>
+
+    <button onclick="duplicateSelectedImage()" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #000000;">Duplicate Selected Image</button>
+
+    <br>
+    <canvas id="canvas"></canvas>
+    <br>
+
+    <label for="imageSelectB" style="font-size: 25px;font-family: cursive;color: rgb(85, 15, 15);">Select an image to adjust brightness:</label>
+    <select id="imageSelectB" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+      <option value="image1">Image 1</option>
+      <option value="image2">Image 2</option>
+      <option value="image3">Image 3</option>
+      <option value="image4">Image 4</option>
+      <option value="image5">Image 5</option>
+      <option value="image6">Image 6</option>
+      <option value="image7">Image 7</option>
+      <option value="image8">Image 8</option>
+      <option value="image9">Image 9</option>
+      <option value="image10">Image 10</option>
+      <option value="image11">Image 11</option>
+      <option value="image12">Image 12</option>
+      <option value="image13">Image 13</option>
+      <option value="image14">Image 14</option>
+      <option value="image15">Image 15</option>
+    </select>
+
+    <label for="brightnessSlider" style="font-size: 25px;font-family: cursive;color: rgb(0, 0, 0);">Adjust brightness:</label>
+    <input type="range" id="brightnessSlider" min="-50" max="100" value="0" step="1">
+
+    <br>
+
+    <label for="imageSelectR" style="font-size: 25px;font-family: cursive;color: rgb(85, 15, 15);">Select an image to change resolution:</label>
+    <select id="imageSelectR" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+      <option value="image1">Image 1</option>
+      <option value="image2">Image 2</option>
+      <option value="image3">Image 3</option>
+      <option value="image4">Image 4</option>
+      <option value="image5">Image 5</option>
+      <option value="image6">Image 6</option>
+      <option value="image7">Image 7</option>
+      <option value="image8">Image 8</option>
+      <option value="image9">Image 9</option>
+      <option value="image10">Image 10</option>
+      <option value="image11">Image 11</option>
+      <option value="image12">Image 12</option>
+      <option value="image13">Image 13</option>
+      <option value="image14">Image 14</option>
+      <option value="image15">Image 15</option>
+    </select>
+
+    <label for="resolutionSelect" style="font-size: 25px;font-family: cursive;color: rgb(6, 1, 1);">Change resolution:</label>
+    <select id="resolutionSelect" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+      <option value="original">Original</option>
+      <option value="50">50%</option>
+      <option value="75">75%</option>
+      <option value="100">100%</option>
+      <option value="150">150%</option>
+      <option value="200">200%</option>
+    </select>
+
+    <br>
+
+    <div>
+      <label style="font-size: 25px;font-family: cursive;color: rgb(85, 15, 15);">Generate Avatar:</label>
+      <label for="image-select" style="font-size: 25px;font-family: cursive;color: rgb(0, 0, 0);"> Image:</label>
+      <select id="image-select" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+        <option value="1.jpg">Image 1</option>
+        <option value="2.jpg">Image 2</option>
+        <option value="3.jpg">Image 3</option>
+        <option value="4.jpg">Image 4</option>
+        <option value="5.jpg">Image 5</option>
+        <option value="6.jpg">Image 6</option>
+        <option value="7.jpg">Image 7</option>
+      </select>
+
+      <label for="shape-select" style="font-size: 25px;font-family: cursive;color: rgb(0, 0, 0);">Select Shape:</label>
+      <select id="shape-select" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+        <option value="square">Square</option>
+        <option value="circle">Circle</option>
+      </select>
+
+      <label for="size-select" style="font-size: 25px;font-family: cursive;color: rgb(0, 0, 0);">Select Size:</label>
+      <select id="size-select" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+    <button id="generate-avatar-button" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #000000;">Generate Avatar</button>
+  </div>
+    <div id="avatar-container"></div>
+      
+      <label style="font-size: 25px;font-family: cursive;color: rgb(85, 15, 15);">Generate Grayscale:</label>
+
+      <label for="image-selectgs" style="font-size: 25px;font-family: cursive;color: rgb(0, 0, 0);">Select an image:</label>
+      <select id="image-selectgs" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+        <option value="1.jpg">Image 1</option>
+        <option value="2.jpg">Image 2</option>
+        <option value="3.jpg">Image 3</option>
+        <option value="4.jpg">Image 4</option>
+        <option value="5.jpg">Image 5</option>
+        <option value="6.jpg">Image 6</option>
+        <option value="7.jpg">Image 7</option>
+        <option value="8.jpg">Image 8</option>
+        <option value="9.jpg">Image 9</option>
+        <option value="10.jpg">Image 10</option>
+        <option value="11.jpg">Image 11</option>
+        <option value="12.jpg">Image 12</option>
+        <option value="13.jpg">Image 13</option>
+        <option value="14.jpg">Image 14</option>
+        <option value="15.jpg">Image 15</option>
+        <option value="16.jpg">Image 16</option>
+      </select>
+      <button id="generate-button" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #000000;">Generate Grayscale Image</button>
+      <br>
+      <canvas id="canvas"></canvas>
+      <br>
+
+      <label style="font-size: 25px;font-family: cursive;color: rgb(85, 15, 15);">Generate QR:</label>
+
+      <label for="image-selectqr" style="font-size: 25px;font-family: cursive;color: rgb(0, 0, 0);">Select an image:</label>
+      <select id="image-selectqr" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+        <option value="1.jpg">Image 1</option>
+        <option value="2.jpg">Image 2</option>
+        <option value="3.jpg">Image 3</option>
+        <option value="4.jpg">Image 4</option>
+          <option value="5.jpg">Image 5</option>
+          <option value="6.jpg">Image 6</option>
+          <option value="7.jpg">Image 7</option>
+          <option value="8.jpg">Image 8</option>
+          <option value="9.jpg">Image 9</option>
+          <option value="10.jpg">Image 10</option>
+          <option value="11.jpg">Image 11</option>
+          <option value="12.jpg">Image 12</option>
+          <option value="13.jpg">Image 13</option>
+          <option value="14.jpg">Image 14</option>
+          <option value="15.jpg">Image 15</option>
+          <option value="16.jpg">Image 16</option>
+      </select>
+      <button id="generate-buttonqr" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #000000;">Generate QR Code</button>
+      <br>
+      <div id="qrcode"></div>
+        <br>
+
+        <label style="font-size: 25px;font-family: cursive;color: rgb(85, 15, 15);">Generate Thumbnail:</label>
+
+      <label for="image-selecttn" style="font-size: 25px;font-family: cursive;color: rgb(0, 0, 0);">Select an image:</label>
+      <select id="image-selecttn" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+        <option value="1.jpg">Image 1</option>
+        <option value="2.jpg">Image 2</option>
+        <option value="3.jpg">Image 3</option>
+        <option value="4.jpg">Image 4</option>
+          <option value="5.jpg">Image 5</option>
+          <option value="6.jpg">Image 6</option>
+          <option value="7.jpg">Image 7</option>
+          <option value="8.jpg">Image 8</option>
+          <option value="9.jpg">Image 9</option>
+          <option value="10.jpg">Image 10</option>
+          <option value="11.jpg">Image 11</option>
+          <option value="12.jpg">Image 12</option>
+          <option value="13.jpg">Image 13</option>
+          <option value="14.jpg">Image 14</option>
+          <option value="15.jpg">Image 15</option>
+          <option value="16.jpg">Image 16</option>
+      </select>
+      <button id="generate-thumbnail-button" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #000000;">Generate Thumbnail</button>
+
+      <br>
+      <canvas id="thumbnail-canvas"></canvas>
+
+      <br>
+      <label style="font-size: 25px;font-family: cursive;color: rgb(85, 15, 15);">Colorize:</label>
+
+      <label for="image-selectrbg" style="font-size: 25px;font-family: cursive;color: rgb(0, 0, 0);">Select an image:</label>
+      <select id="image-selectrbg" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+        <option value="1.jpg">Image 1</option>
+        <option value="2.jpg">Image 2</option>
+        <option value="3.jpg">Image 3</option>
+        <option value="4.jpg">Image 4</option>
+          <option value="5.jpg">Image 5</option>
+          <option value="6.jpg">Image 6</option>
+          <option value="7.jpg">Image 7</option>
+          <option value="8.jpg">Image 8</option>
+          <option value="9.jpg">Image 9</option>
+          <option value="10.jpg">Image 10</option>
+          <option value="11.jpg">Image 11</option>
+          <option value="12.jpg">Image 12</option>
+          <option value="13.jpg">Image 13</option>
+          <option value="14.jpg">Image 14</option>
+          <option value="15.jpg">Image 15</option>
+          <option value="16.jpg">Image 16</option>
+      </select>
+      
+      
+      
+      <label for="color-select" style="font-size: 25px;font-family: cursive;color: rgb(0, 0, 0);">Select a color:</label>
+      <select id="color-select" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #010911;">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+      </select>
+      
+      <button id="colorize-button" style="padding: 6px 8px; font-size: 12px; border-radius: 5px; border: 1px solid #000000;">Colorize Image</button>
+      <br>
+      <canvas id="image-canvas"></canvas>
+    <script src="script.js"></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+  </body>
+</html>
